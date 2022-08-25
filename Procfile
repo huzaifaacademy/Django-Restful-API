@@ -1,1 +1,1 @@
-gunicorn  myproject:application -b xx.xxx.xxx.xx:8000
+gunicorn myproject:application --preload -b 0.0.0.0:5000 
