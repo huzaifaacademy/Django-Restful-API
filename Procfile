@@ -1,1 +1,1 @@
-web: gunicorn myproject.wsgi:application --log-file -
+gunicorn  myproject.wsgi:application -b xx.xxx.xxx.xx:8000
